@@ -4,7 +4,7 @@ timelimit: 1.0
 memlimit: 64   
 owner: Јована Ормановић 
 origin:    
-tags: []   
+tags: [савршен_број]   
 status: КОМПЛЕТАН
 status-od: 2019-08-16   
 solutions:
