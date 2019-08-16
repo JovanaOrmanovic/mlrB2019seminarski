@@ -11,9 +11,6 @@ struct datum
     int godina;
 };
 
-// probaj da uradis ovo u c# isto kao sto sam ja napisao,
-// znaci gde ti je 1 stavi false, gde je -1 stavi true
-
 bool cmp(datum d1, datum d2)
 {
     if (d1.godina > d2.godina)
