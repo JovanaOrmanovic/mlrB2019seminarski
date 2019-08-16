@@ -9,8 +9,7 @@ int main(int argc, char const *argv[]) {
   int b[(int)n / 2];
   for (int i = 0; i < n; i++) {
     int x;
-    cin >> x;
-    a[i] = x;
+    cin >> a[i];
   }
   for (int j = 0; j < n / 2; j++) {
     b[j] = a[j] * a[n - 1 - j];
