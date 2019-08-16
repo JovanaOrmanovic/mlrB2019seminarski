@@ -4,7 +4,7 @@
 using namespace std;
 
 int brojUDnevniku(const string &ucenik) {
-  // stoi je funkcija iz <string> biblioteke, konvertuje string u int
+  // stoi je funkcija iz <string> biblioteke koja konvertuje string u int
   return stoi(ucenik.substr(2));
 }
 
@@ -13,20 +13,16 @@ int main(int argc, char const *argv[]) {
   cin >> n;
   string spisakMatematika[n];
 
-  string pomocna = "";
   for (int k = 0; k < n; k++) {
-    cin >> pomocna;
-    spisakMatematika[k] = pomocna;
+    cin >> spisakMatematika[k];
   }
 
   int m;
   cin >> m;
   string spisakProgramiranje[m];
 
-  pomocna = "";
   for (int k = 0; k < m; k++) {
-    cin >> pomocna;
-    spisakProgramiranje[k] = pomocna;
+    cin >> spisakProgramiranje[k];
   }
 
   int i = 0, j = 0;

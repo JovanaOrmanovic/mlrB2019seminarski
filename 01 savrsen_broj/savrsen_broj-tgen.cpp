@@ -1,4 +1,4 @@
-#include "tgen.hpp"
+#include "../tgen.hpp"
 
 int rand_seed = 0;
 int test_count = 10;

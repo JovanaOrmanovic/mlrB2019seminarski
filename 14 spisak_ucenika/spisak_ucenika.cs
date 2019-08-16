@@ -25,7 +25,7 @@ namespace spisak_studenata
                 spisakProgramiranje[k] = Console.ReadLine();
             int i = 0, j = 0;
             int br = 0;
-            while (i < spisakMatematika.Length && j < spisakProgramiranje.Length) {
+            while (i < n && j < m) {
                 int brUDnevMat = brojUDnevniku(spisakMatematika[i]);
                 int brUDnevProg = brojUDnevniku(spisakProgramiranje[j]);
                 if (brUDnevMat<brUDnevProg)
