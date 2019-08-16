@@ -6,7 +6,8 @@ string naziv_zadatka = "more";
 
 void gen_test(int i, ostream &tin)
 {
-    const vector<string> agencije = {
+    const vector<string> agencije =
+    {
         "WorldTravel",
         "AIRTours",
         "ApolonTravel",
@@ -17,7 +18,8 @@ void gen_test(int i, ostream &tin)
         "BalkanExpress",
         "AsiaTours",
         "SerbiaTravel",
-        "StudentHoliday"};
+        "StudentHoliday"
+    };
 
     int brojAgencija = random_value(1, 10);
 

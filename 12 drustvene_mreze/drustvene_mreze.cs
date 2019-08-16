@@ -18,7 +18,8 @@ namespace drustvene_mreze
             // brTw - broj korisnika twitter-a
             string najpopularnijaMreza;
             int maxGlasova;
-            for (int i = 1; i <= n; i++) {
+            for (int i = 1; i <= n; i++)
+            {
                 int glas = int.Parse(Console.ReadLine());
                 if (glas == 1)
                     brInsta++;
@@ -30,7 +31,8 @@ namespace drustvene_mreze
 
             maxGlasova = brInsta;
             najpopularnijaMreza = "Instagram";
-            if (maxGlasova < brFB) {
+            if (maxGlasova < brFB)
+            {
                 maxGlasova = brFB;
                 najpopularnijaMreza = "Facebook";
             }
@@ -41,7 +43,7 @@ namespace drustvene_mreze
             }
 
             Console.WriteLine(najpopularnijaMreza);
-            Console.WriteLine(((maxGlasova * 100.0) / n).ToString("0.00")+"%");
+            Console.WriteLine(((maxGlasova * 100.0) / n).ToString("0.00") + "%");
         }
     }
 }

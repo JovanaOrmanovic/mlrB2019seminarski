@@ -10,7 +10,7 @@ namespace merenje_povrsine
     {
         static void Main(string[] args)
         {
-            double povrsina=double.Parse(Console.ReadLine());
+            double povrsina = double.Parse(Console.ReadLine());
             int indikator = int.Parse(Console.ReadLine());
             double novaPovrsina;
             if (indikator == 1)

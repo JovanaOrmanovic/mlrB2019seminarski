@@ -18,7 +18,8 @@ namespace taksi_udruzenje
             podaci = ulaz.Split();
             brMin = int.Parse(podaci[0]);
             Min = int.Parse(podaci[1]);
-            while ((ulaz = Console.ReadLine()) != null) {
+            while ((ulaz = Console.ReadLine()) != null)
+            {
                 podaci = ulaz.Split();
                 int minDoDolaska = int.Parse(podaci[1]);
                 if (minDoDolaska < Min)

@@ -10,7 +10,7 @@ namespace masa_i_tezina
     {
         static void Main(string[] args)
         {
-            double masa=double.Parse(Console.ReadLine());
+            double masa = double.Parse(Console.ReadLine());
             double tezina;
             tezina = masa * 9.81;
             Console.WriteLine(tezina.ToString("0.00"));

@@ -3,7 +3,7 @@ brInsta = brFB = brTw = 0
 # brInsta - broj korisnika instagrama
 # brFB - broj korisnika facebook-a
 # brTw - broj korisnika twitter-a
-for i in range(1, n+1):
+for i in range(1, n + 1):
     glas = int(input())
     if glas == 1:
         brInsta += 1

@@ -13,7 +13,8 @@ namespace poklon_za_rodjendan
             double n = double.Parse(Console.ReadLine());
             int m = int.Parse(Console.ReadLine());
             int brojac = 0;
-            for (int i = 0; i < m; i++) {
+            for (int i = 0; i < m; i++)
+            {
                 double cenaProizvoda = double.Parse(Console.ReadLine());
                 if (cenaProizvoda <= n)
                     brojac++;

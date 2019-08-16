@@ -12,11 +12,13 @@ namespace more
         {
             var ponudeZaMore = new SortedDictionary<int, string>();
             string ulaz;
-            while ((ulaz = Console.ReadLine()) != null) {
+            while ((ulaz = Console.ReadLine()) != null)
+            {
                 string[] elementiUlaza = ulaz.Split();
                 ponudeZaMore.Add(int.Parse(elementiUlaza[1]), elementiUlaza[0]);
             }
-            foreach (var ponuda in ponudeZaMore) {
+            foreach (var ponuda in ponudeZaMore)
+            {
                 Console.WriteLine(ponuda.Value);
             }
         }

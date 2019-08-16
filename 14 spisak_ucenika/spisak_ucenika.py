@@ -1,7 +1,6 @@
 def brojUDnevniku(ucenik):
     return int(ucenik[2:])
 
-
 n = int(input())
 spisakMatematika = []
 for i in range(0, n):

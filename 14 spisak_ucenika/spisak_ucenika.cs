@@ -9,7 +9,8 @@ namespace spisak_studenata
     class Program
     {
 
-        static int brojUDnevniku(string ucenik) {
+        static int brojUDnevniku(string ucenik)
+        {
             return int.Parse(ucenik.Substring(2));
         }
 
@@ -25,12 +26,13 @@ namespace spisak_studenata
                 spisakProgramiranje[k] = Console.ReadLine();
             int i = 0, j = 0;
             int br = 0;
-            while (i < n && j < m) {
+            while (i < n && j < m)
+            {
                 int brUDnevMat = brojUDnevniku(spisakMatematika[i]);
                 int brUDnevProg = brojUDnevniku(spisakProgramiranje[j]);
-                if (brUDnevMat<brUDnevProg)
+                if (brUDnevMat < brUDnevProg)
                     i++;
-                else if (brUDnevMat>brUDnevProg)
+                else if (brUDnevMat > brUDnevProg)
                     j++;
                 else
                 {
