@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     int cena;
     vector<pair<string, int>> ponude;
 
-    while (getline(cin, linija))
+    while (cin>>linija)
     {
         agencija = linija.substr(0, linija.find(" "));
         cena = stoi(linija.substr(linija.find(" ") + 1));
